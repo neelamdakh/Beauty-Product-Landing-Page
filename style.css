@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Delicious+Handrawn&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bodoni Moda", serif;
+}
+body{
+    background-color: #F0AA96;
+}
+.main_Container
+{
+    width: 94%;
+    height: 150vh;
+    margin:auto;
+    margin-top: 35px;
+    background-image: linear-gradient(to right, #FAE6DF , #FFFDFC);
+}
+nav
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 100px;
+    
+}
+.nav_left h1
+{
+font-size: 22px;
+font-weight: 700;
+color:  #F0AA96;;
+font-family: "Poppins", sans-serif !important;
+}
+.nav_center ul
+{
+    display: flex;
+    gap:45px;
+}
+.nav_center li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif !important;
+}
+.nav_right
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav_right p{
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav_right span
+{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #F0AA96;
+    color: white;
+    font-size: 12px;
+
+}
+.container{
+    display: flex;
+}
+
+.image_section
+{
+    width: 50%;
+    height: 550px;
+    padding-left: 50px;
+    background-image: url(./assests/profile_image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text_section{
+    width:50%;
+    height: 550px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.heading_section h3{
+    font-size: 24px;
+    position: absolute;
+    left: -61px;
+    top: 75px;
+    color:#F0AA96;
+}
+.text_section h2{
+    font-size: 81px;
+    margin-top: 140px;
+    line-height: 95px;
+    color: #323230;
+}
+.text_section button
+{
+    padding: 12px 33px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #696261;
+    border: 1px solid #696261;
+    margin-top: 30px;
+}
+.footer
+{
+    width: 60%;
+    height: 180px;
+   background-image: url(./assests/background.png);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   padding: 30px;
+}
+.footer_left
+{
+    width: 60%;
+    
+}
+.footer_right
+{
+    width: 40%;
+    
+    
+}
+.footer_left p
+{
+     font-size: 32px;
+     color: white;
+}
+.footer_right p
+{
+    font-size: 14px;
+    color: white;
+}
+.footer_right button
+{
+
+font-size: 12px;
+font-weight: 500;
+margin-top: 30px;
+
+background: transparent;
+border: none;
+cursor: pointer;
+text-align: left;
+}
+.rose_water
+{
+position: relative;
+top: -220px;
+    left: 930px;
+}
+
