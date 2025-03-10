@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Bodoni Moda", serif;
+    
 }
 body{
     background-color: #F0AA96;
@@ -154,8 +155,8 @@ text-align: left;
 }
 .rose_water
 {
-position: relative;
-top: -220px;
+position: absolute;
+    top: 630px;
     left: 930px;
 }
 
